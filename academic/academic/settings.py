@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'academic.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'academic.sqlite3',
+        'NAME': BASE_DIR / 'academic.db',
     }
 }
 
